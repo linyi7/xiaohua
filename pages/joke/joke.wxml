@@ -1,0 +1,37 @@
+
+<view bindtap='jump' id="{{index}}" class='ul' hidden='{{!flag}}' wx:for="{{data}}" wx:key="u">
+  <view class='li'>
+    <view class='left {{color[index]}}'>{{index+1}}</view>
+    <view class='center'>{{item.title}}</view>
+    <view class='right'>
+      <image src='../../images/jt.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='loading' hidden='{{!loadingMore}}'>正在加载更多</view>
+<view class='loading' hidden='{{!loadingOver}}'>已加载全部</view>
+
+
+<!-- 
+  用scroll-view实现上拉加载  下拉刷新
+<scroll-view scroll-y style='height: 500rpx' bindscrolltolower="lower" bindscrolltoupper="upper" >
+
+
+<view bindtap='jump' id="{{index}}" class='ul' hidden='{{!flag}}' wx:for="{{data}}" wx:key="u">
+  <view class='li'>
+    <view class='left {{color[index]}}'>{{index+1}}</view>
+    <view class='center'>{{item.title}}</view>
+    <view class='right'>
+      <image src='../../img/alt.png'></image>
+    </view>
+  </view>
+</view>
+
+<view class='loading' hidden='{{!loadingMore}}'>正在加载更多</view>
+<view class='loading' hidden='{{!loadingOver}}'>已加载全部</view>
+
+
+
+
+</scroll-view> -->

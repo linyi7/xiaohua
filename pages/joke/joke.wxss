@@ -1,0 +1,84 @@
+
+.ul {
+  padding-left: .7143rem;
+  font-size: 1rem;
+  color: #333;
+  font-family: Microsoft Yahei;
+}
+
+.li {
+  width: 100%;
+  height: 4.0714rem;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  display: flex;
+  line-height: 4.0714rem;  
+}
+
+.left {
+  padding: 0 .5rem;
+  height: 1.0714rem;
+  line-height: 1.0714rem;
+  border-radius: .5rem;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -.5357rem;
+  text-align: center;
+  font-size: .7143rem;
+  color: #999;
+  display: inline-block;
+}
+
+.center {
+  width: 100%;
+  padding-left: 2.0674rem;
+  padding-right: 2.657rem;
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 1rem;
+  box-sizing: border-box;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.5rem;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+image {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.one {
+  background: #e80000;
+  color: #fff;
+}
+
+.two {
+  background: #ff7200;
+  color: #fff;
+}
+
+.three {
+  color: #fff;
+  background: #f8b300;
+}
+
+.loading {
+  text-align: center;
+  padding: 10rpx;
+  color: #ccc;
+}

@@ -1,0 +1,5 @@
+<view class='content'>
+  <view class='title'>{{data.title}}</view>
+  <view class='text'>{{data.text}}</view>
+  <view class='time'>{{data.ct}}</view>
+</view>
